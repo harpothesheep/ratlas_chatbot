@@ -1,1 +1,21 @@
+def chatbot():
+    while True:
+        print("Welcome i am ramoyed named ratlas")
+        print("How can you help me today?")
+        print("1. Learn about my services")
+        print("2. Contact my wife ralfa (support)")
+        print("3. Exit")
+        
+        choice = input("Enter 1, 2, or 3: ")
+        
+        if choice == "1":
+            print("i offer Python training for treats, DevOps consulting for pets, and cloud migration services for beef patty.")
+        elif choice == "2":
+            print("You can reach ralfa (support) at support@example.com")
+        elif choice == "3":
+            print("fine reave then...rupid human!")
+            break
+        else:
+            print("Sorry, you sound rupid try ragain.")
 
+chatbot()
