@@ -9,7 +9,29 @@ def chatbot():
         choice = input("Enter 1, 2, or 3: ")
         
         if choice == "1":
-            print("i offer Python training for treats, DevOps consulting for pets, and cloud migration services for beef patty.")
+            while True:
+                print("You have selected to learn about my services.")
+                print("Here are some options:")
+                print("1. Python training for treats")
+                print("2. DevOps consulting for pets")
+                print("3. Cloud migration services for beef patty")
+                print("4. Go back to main menu")
+                
+                service_choice = input("Enter 1, 2, 3, or 4: ")
+                
+                if service_choice == "1":
+                    print("python raining for treats is a great choice!")
+                    # i will Add more details or options here
+                elif service_choice == "2":
+                    print("DevOps ronsulting for pets is a runique service!")
+                    # i will Add more details or options here
+                elif service_choice == "3":
+                    print("Cloud rigration rervices for beef patty is a tasty option...for me!")
+                    # i will Add more details or options here
+                elif service_choice == "4":
+                    break
+                else:
+                    print("Sorry, you sound rupid try ragain.")
         elif choice == "2":
             print("You can reach ralfa (support) at support@example.com")
         elif choice == "3":
@@ -17,5 +39,4 @@ def chatbot():
             break
         else:
             print("Sorry, you sound rupid try ragain.")
-
 chatbot()
