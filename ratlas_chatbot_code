@@ -94,6 +94,26 @@ def chatbot():
         elif choice == "ratlas!":
             print("RHAT RELSE COULD YOU ROSSIBLY RANT!")
             break
+        elif choice == "ralfa!":
+            print("how may ry help rou darling?")
+            while True:
+                print("heres rhat i ran do")
+                print("1. emotional support")
+                print("2. file a complaint about my rusband")
+                print("3. actual enquestions about our ratbot")
+                print("4. Go back to main menu")
+
+                ralfa_choice = input("Enter 1, 2, 3, or 4 ")
+
+                if ralfa_choice == "1":
+                    print("I'm ro sorry my rusband has reen mean to you I'll reak rith him")
+                if ralfa_choice == "2":
+                    print("please rill out the rourm ry rill make sure hr reads through rhis")
+                if ralfa_choice == "3":
+                    print("ry have never rad romeone actually request this rind of relp im rorry")
+                    break
+                if ralfa_choice == "4":
+                    break
         else:
             print("Sorry, you sound rupid try ragain.")
 
